@@ -19,9 +19,9 @@ class Shoe:
         print("Your shoe is as good as new!")
         self.condition = "New"  
 
-shoe = Shoe("Louis Vuitton", 8, "")    
+shoe = Shoe("Louis Vuitton", 8)    
 print(shoe.brand)
 print(shoe.size)
-print(shoe.cobble())
+print(shoe.condition)
 
 
